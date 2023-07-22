@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Scraper</title>
+    <link rel="stylesheet" href="/static/output.css">
+</head>
+
+<body>
+
+    <form action="" method="post">
+        {% csrf_token %}
+        <div class="flex justify-center flex-col m-4">
+            <input name="siteurl" type="text" class="m-3 p-2 border-4 rounded-lg focus:outline-none"
+                placeholder="Input URL...">
+            <button type="submit"
+                class="bg-blue-500 hover:bg-blue-700 p-1 text-white text-1xl rounded-2xl m-3 font-bold">Download</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
