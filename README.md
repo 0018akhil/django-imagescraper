@@ -1,5 +1,5 @@
 # Django image scraper
-Paste the URL from where you want to scrap all the images. Create a folder called 'images' in project scrapped images will be availabe in the folder. 
+Paste the URL from where you want to scrap all the images. Create a folder called 'images' in the project, scrapped images will be available in the folder. 
 
 
 # Requirements
